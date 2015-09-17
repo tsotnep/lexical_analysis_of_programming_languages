@@ -1,0 +1,10 @@
+-how to run lex & yacc:
+lex example4.l
+yacc -d example4.y
+cc lex.yy.c y.tab.c -o example4
+./example4
+
+-how to run lex only
+lex example1.l
+cc lex.yy.c -o example1 -ll
+./example1
