@@ -1,6 +1,3 @@
-/* temp.y - this program solves mathematical problems */
-/* how to run? type: bison -d -rall test.y -where "-d" generates report, and "-rall" Reports All*/
-
 %{
 #include <stdio.h>
 #include <math.h>
